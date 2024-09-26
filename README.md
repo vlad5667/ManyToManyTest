@@ -1,0 +1,1 @@
+To build this app I used Kotlin, Jetpack Compose for UI, Ktor for networking and MVVM. I've chosen MVVM architecture because it's recommended by Google and considered a best practice for Android applications. I also know Redux but I think it's overkill for such a simple project since there is more boilerplate code and complications.
