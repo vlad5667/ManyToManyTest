@@ -2,7 +2,6 @@ package com.example.manytomanytest
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -65,7 +64,6 @@ class ProductsActivity : ComponentActivity() {
     private fun fetchProducts() {
         productTitle = ""
         products = emptyList()
-        isLoading = true
 
         productsViewModel.fetchProducts()
     }
